@@ -248,3 +248,13 @@ hr {
 .delete__modal-buttons button:last-child:hover {
   background-color: #5a6b73;
 }
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+}
+.container .btn-holder {
+  justify-content: flex-end;
+  display: flex;
+}
