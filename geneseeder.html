@@ -6,11 +6,11 @@
   <title>Budget App</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 <link href="https://fonts.googleapis.com/css?family=Muli:900|Roboto:400,500,700" rel="stylesheet">
-  
-  
-      <link rel="stylesheet" href="./style.css">
 
-  
+
+      <link rel="stylesheet" href="./geneseeder.css">
+
+
 </head>
 
 <body>
@@ -18,7 +18,7 @@
   <div id="app" :class="{ 'modal-active': modalActive }">
   <div class="budget">
     <h2 class="marketing">CryptoCannabis DApp Strain GeneSeeder</h2>
-    
+
     <div>
       <form class="budget__budget-input">
         <h2>Enter Total GeneSeeds Here</h2>
@@ -35,23 +35,23 @@
         <button @click.prevent="onExpenseSubmit">{{ expenseSubmit }} To Fulfill</button>
       </form>
     </div>
-    
+
     <div class="budget__details">
       <div class="budget__item">
         <h2 class="budget__item-amount">{{ displayedBudget }}%</h2>
         <span class="budget__item-label">Total GeneSeed</span>
       </div>
-      
+
       <div class="budget__item">
         <h2 class="budget__item-amount">{{ expenses }}%</h2>
         <span class="budget__item-label">Fulfilled GeneSeed</span>
       </div>
-      
+
       <div class="budget__item">
         <h2 class="budget__item-amount">{{ balance }}%</h2>
         <span class="budget__item-label">Amount Left Needed To Gene</span>
       </div>
-      
+
       <div class="budget__transactions">
         <h1>GeneSeed Pool</h1>
         <table>
@@ -87,7 +87,7 @@
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js'></script>
 
-  
+
 
     <script  src="./script.js"></script>
 
